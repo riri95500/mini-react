@@ -24,7 +24,7 @@ export class Weather extends Component {
       fetchWeatherData() {
         console.log("test");
         const { city } = this.state;
-        const apiKey = "dfe6f68fabbb0d62dbdf635e2a684b91";
+        const apiKey = "";
     
         fetch(
           `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&lang=FR`
